@@ -1,0 +1,29 @@
+{
+  "name": "worker-rwlock",
+  "version": "0.1.0",
+  "description": "Read/write lock implementation using shared memory",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc src/main.ts --declaration --outDir dist/ --target es2020 --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnderShadow8/worker-rwlock.git"
+  },
+  "keywords": [
+    "lock",
+    "parallel",
+    "worker",
+    "shared-memory"
+  ],
+  "author": "EnderShadow8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnderShadow8/worker-rwlock/issues"
+  },
+  "homepage": "https://github.com/EnderShadow8/worker-rwlock#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
